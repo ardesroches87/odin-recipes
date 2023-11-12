@@ -22,17 +22,25 @@ img {
     height: auto;
     text-align: center;
 }
-li {
-    list-style-type: none;
-    font-size: 20px;
+#group {
+    text-align: center;
+    margin-bottom: 60px
 }
 
-li a {
-    color: black;
+.links {
+   display: inline-block;
+   margin: 20px;
+   border: 4px solid white;
+   padding: 5px
+}
+
+.click {
+    display: block;
+    text-align: center;
     text-decoration: none;
+    color: black
 }
-
-li a:hover {
+div a:hover {
     color: darkolivegreen;
     text-decoration: underline;
 }
@@ -40,4 +48,6 @@ footer p {
 font-size: 12px;
 font-style: italic;
 text-align: center;
+margin-top: 50px;
+padding: 10px;
 }
